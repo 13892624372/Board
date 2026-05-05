@@ -6,5 +6,11 @@ export default defineConfig({
   base: '/dashboard2.0/',
   build: {
     outDir: 'dist'
+  },
+  server: {
+    cors: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    }
   }
 })
