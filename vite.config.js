@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/dashboard2.0/',
+  base: '/Board/',
   build: {
     outDir: 'dist'
   },
